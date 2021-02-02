@@ -1,0 +1,6 @@
+i<>.\src\TutorVHDL.vhd
+i<>.\src\TestBench\tutorvhdl_TB.vhd
+i<>.\src\Encoder.vhd
+i<>.\src\mux.vhd
+i<>.\src\muxdivider.vhd
+i<>.\src\stoper.vhd

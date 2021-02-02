@@ -1,0 +1,12 @@
+34
+~E 1 "../src/mux.vhd" 4 four2one_mux
+~A 1 "../src/mux.vhd" 11 Behavioral
+~E 1 "../src/muxdivider.vhd" 5 muxdivider
+~A 1 "../src/muxdivider.vhd" 10 Behavioral
+~E 1 "../src/Encoder.vhd" 5 seg_decoder
+~A 1 "../src/Encoder.vhd" 10 Behavioral
+~C 1 "../src/TestBench/tutorvhdl_TB.vhd" 92 testbench_for_tutorvhdl
+~E 1 "../src/TutorVHDL.vhd" 20 TutorVHDL
+~A 1 "../src/TutorVHDL.vhd" 32 TutorVHDL
+~E 1 "../src/TestBench/tutorvhdl_TB.vhd" 7 tutorvhdl_tb
+~A 1 "../src/TestBench/tutorvhdl_TB.vhd" 10 TB_ARCHITECTURE

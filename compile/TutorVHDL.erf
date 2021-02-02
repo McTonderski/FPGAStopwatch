@@ -1,0 +1,4 @@
+MESSAGE "File: c:\Users\Maciek\Downloads\TutorVHDL\src\muxdivider.vhd" 
+MESSAGE "Compile Entity "muxdivider"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "muxdivider"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

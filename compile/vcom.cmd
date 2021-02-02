@@ -1,0 +1,1 @@
+-w -erf c:/Users/Maciek/Downloads/TutorVHDL/compile/TutorVHDL.erf -d c:/Users/Maciek/Downloads/TutorVHDL/compile -s c:/Users/Maciek/Downloads/TutorVHDL/library.cfg -j c:/Users/Maciek/Downloads/TutorVHDL/projlib.cfg -work TutorVHDL -dbg -e 100 -work TutorVHDL -2002 c:/Users/Maciek/Downloads/TutorVHDL/src/muxdivider.vhd 
