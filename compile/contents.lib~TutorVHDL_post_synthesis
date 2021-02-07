@@ -1,0 +1,17 @@
+93
+~E 0 "" 0 four2one_mux
+~A 0 "" 0 behavioral
+~E 0 "" 0 muxdivider
+~A 0 "" 0 structure
+~E 0 "" 0 seg_decoder
+~A 0 "" 0 behavioral
+~E 0 "" 0 seg_decoder_tb
+~A 0 "" 0 tb_architecture
+~E 0 "" 0 sixteen_bit_counter
+~A 0 "" 0 structure
+~E 0 "" 0 sixteen_bit_counter_tb
+~A 0 "" 0 tb_architecture
+~E 0 "" 0 Stopwatch
+~A 0 "" 0 structure
+~E 0 "" 0 Stopwatch_tb
+~A 0 "" 0 tb_architecture

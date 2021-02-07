@@ -1,0 +1,348 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sun Feb  7 21:07:14 2021
+# Process ID: 13728
+# Current directory: c:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/synthesis
+# Command line: vivado.exe -mode batch -log vivado.log -journal transcript.log -source c:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/synthesis/run_vivado.tcl
+# Log file: c:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/synthesis/vivado.log
+# Journal file: c:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/synthesis\transcript.log
+#-----------------------------------------------------------
+source c:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/synthesis/run_vivado.tcl
+# create_project -force Stopwatch {c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\synthesis} -part 7a15tcpg236-1
+# add_files -norecurse {C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/src/Encoder.vhd}
+# add_files -norecurse {C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/src/mux.vhd}
+# add_files -norecurse {C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/src/muxdivider.vhd}
+# add_files -norecurse {C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/src/stoper.vhd}
+# add_files -norecurse {C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/four2one_mux.vhd}
+# add_files -norecurse {C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/muxdivider.vhd}
+# add_files -norecurse {C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/seg_decoder.vhd}
+# add_files -norecurse {C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/sixteen_bit_counter.vhd}
+# add_files -norecurse {C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/Stopwatch.vhd}
+# set_property top Stopwatch [current_fileset]
+# set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
+# synth_design -top Stopwatch -flatten_hierarchy rebuilt -gated_clock_conversion off -fsm_extraction auto -bufg 12 -fanout_limit 10000 -shreg_min_size 3 -max_bram -1 -max_uram -1 -max_dsp -1 -max_bram_cascade_height -1 -max_uram_cascade_height -1 -cascade_dsp auto -directive default -resource_sharing auto -control_set_opt_threshold auto
+Command: synth_design -top Stopwatch -flatten_hierarchy rebuilt -gated_clock_conversion off -fsm_extraction auto -bufg 12 -fanout_limit 10000 -shreg_min_size 3 -max_bram -1 -max_uram -1 -max_dsp -1 -max_bram_cascade_height -1 -max_uram_cascade_height -1 -cascade_dsp auto -directive default -resource_sharing auto -control_set_opt_threshold auto
+Starting synth_design
+Using part: xc7a15tcpg236-1
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a15t-cpg236'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a15t-cpg236'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11844 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 301.320 ; gain = 79.977
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-2488] overwriting existing primary unit four2one_mux [C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/four2one_mux.vhd:24]
+CRITICAL WARNING: [Synth 8-2489] overwriting existing secondary unit behavioral [C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/muxdivider.vhd:31]
+CRITICAL WARNING: [Synth 8-2488] overwriting existing primary unit stopwatch [C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/Stopwatch.vhd:24]
+INFO: [Synth 8-638] synthesizing module 'Stopwatch' [C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/Stopwatch.vhd:35]
+INFO: [Synth 8-226] default block is never used [C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/Stopwatch.vhd:95]
+INFO: [Synth 8-3491] module 'muxdivider' declared at 'C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/src/muxdivider.vhd:5' bound to instance 'COUNTER2BIT' of component 'muxdivider' [C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/Stopwatch.vhd:142]
+INFO: [Synth 8-638] synthesizing module 'muxdivider' [C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/muxdivider.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'muxdivider' (1#1) [C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/muxdivider.vhd:31]
+INFO: [Synth 8-3491] module 'sixteen_bit_counter' declared at 'C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/sixteen_bit_counter.vhd:25' bound to instance 'COUNTER4BIT0' of component 'sixteen_bit_counter' [C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/Stopwatch.vhd:148]
+INFO: [Synth 8-638] synthesizing module 'sixteen_bit_counter' [C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/sixteen_bit_counter.vhd:37]
+WARNING: [Synth 8-614] signal 'RST' is read in the process but is not in the sensitivity list [C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/sixteen_bit_counter.vhd:43]
+WARNING: [Synth 8-614] signal 'CEn' is read in the process but is not in the sensitivity list [C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/sixteen_bit_counter.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'sixteen_bit_counter' (2#1) [C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/sixteen_bit_counter.vhd:37]
+INFO: [Synth 8-3491] module 'seg_decoder' declared at 'C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/src/Encoder.vhd:5' bound to instance 'decode0' of component 'seg_decoder' [C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/Stopwatch.vhd:159]
+INFO: [Synth 8-638] synthesizing module 'seg_decoder' [C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/src/Encoder.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'seg_decoder' (3#1) [C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/src/Encoder.vhd:10]
+INFO: [Synth 8-3491] module 'seg_decoder' declared at 'C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/src/Encoder.vhd:5' bound to instance 'decode1' of component 'seg_decoder' [C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/Stopwatch.vhd:165]
+INFO: [Synth 8-3491] module 'seg_decoder' declared at 'C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/src/Encoder.vhd:5' bound to instance 'decode2' of component 'seg_decoder' [C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/Stopwatch.vhd:171]
+INFO: [Synth 8-3491] module 'seg_decoder' declared at 'C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/src/Encoder.vhd:5' bound to instance 'decode3' of component 'seg_decoder' [C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/Stopwatch.vhd:177]
+INFO: [Synth 8-3491] module 'four2one_mux' declared at 'C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/four2one_mux.vhd:24' bound to instance 'mux' of component 'four2one_mux' [C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/Stopwatch.vhd:183]
+INFO: [Synth 8-638] synthesizing module 'four2one_mux' [C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/four2one_mux.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'four2one_mux' (4#1) [C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/four2one_mux.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'Stopwatch' (5#1) [C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/Stopwatch.vhd:35]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 340.398 ; gain = 119.055
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 340.398 ; gain = 119.055
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a15tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 627.332 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 627.332 ; gain = 405.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a15tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 627.332 ; gain = 405.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 627.332 ; gain = 405.988
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element Q_INT1_reg was removed.  [C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/sixteen_bit_counter.vhd:50]
+INFO: [Synth 8-5546] ROM "TEMP" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "TEMP2" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 627.332 ; gain = 405.988
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     24 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 5     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               24 Bit    Registers := 2     
+	                4 Bit    Registers := 4     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 2     
+	   5 Input      7 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Stopwatch 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     24 Bit       Adders := 2     
++---Registers : 
+	               24 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module muxdivider 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
+Module sixteen_bit_counter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 5     
++---Registers : 
+	                4 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 3     
+Module four2one_mux 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input      7 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 45 (col length:60)
+BRAMs: 50 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "TEMP" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "TEMP2" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element COUNTER4BIT0/Q_INT1_reg was removed.  [C:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/compile/sixteen_bit_counter.vhd:50]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 627.332 ; gain = 405.988
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 627.332 ; gain = 405.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 627.332 ; gain = 405.988
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 627.332 ; gain = 405.988
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 627.332 ; gain = 405.988
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 627.332 ; gain = 405.988
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 627.332 ; gain = 405.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 627.332 ; gain = 405.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 627.332 ; gain = 405.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 627.332 ; gain = 405.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    12|
+|3     |LUT1   |    47|
+|4     |LUT2   |    12|
+|5     |LUT3   |     5|
+|6     |LUT4   |    24|
+|7     |LUT5   |     9|
+|8     |LUT6   |    23|
+|9     |MUXF7  |     7|
+|10    |FDRE   |    68|
+|11    |IBUF   |     3|
+|12    |OBUF   |    12|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------------+--------------------+------+
+|      |Instance       |Module              |Cells |
++------+---------------+--------------------+------+
+|1     |top            |                    |   223|
+|2     |  COUNTER2BIT  |muxdivider          |     8|
+|3     |  COUNTER4BIT0 |sixteen_bit_counter |    73|
++------+---------------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 627.332 ; gain = 405.988
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 627.332 ; gain = 119.055
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 627.332 ; gain = 405.988
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 15 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+32 Infos, 8 Warnings, 3 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 627.332 ; gain = 408.027
+# report_utilization -file {Stopwatch_utilization_synth.rpt}
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 627.332 ; gain = 0.000
+# write_edf -force {Stopwatch.edn}
+c:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/synthesis/Stopwatch.edn
+# write_vhdl -force {Stopwatch.vhd}
+# write_xdc -force {Stopwatch.xdc}
+# write_checkpoint -force Stopwatch_synth.dcp
+INFO: [Common 17-1381] The checkpoint 'c:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/synthesis/Stopwatch_synth.dcp' has been generated.
+INFO: [Common 17-206] Exiting Vivado at Sun Feb  7 21:07:55 2021...

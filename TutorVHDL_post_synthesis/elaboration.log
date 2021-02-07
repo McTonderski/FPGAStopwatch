@@ -1,0 +1,43 @@
+Active-HDL 10.5a.12.6914 2021-02-07 13:49:56
+
+Elaboration top modules:
+Architecture                  STRUCTURE(Stopwatch)
+
+
+-----------------------------------------------------------------------------------------------------------
+Entity    | Architecture | Library                  | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------------------------
+Stopwatch | STRUCTURE    | TutorVHDL_post_synthesis |      | 10.5a.12.6914 (Windows) | -dbg
+obuf      | obuf_v       | unisim                   |      | 10.5a.12.6914 (Windows) | -vendor Xilinx -93
+lut2      | lut2_v       | unisim                   |      | 10.5a.12.6914 (Windows) | -vendor Xilinx -93
+lut3      | lut3_v       | unisim                   |      | 10.5a.12.6914 (Windows) | -vendor Xilinx -93
+fdre      | fdre_v       | unisim                   |      | 10.5a.12.6914 (Windows) | -vendor Xilinx -93
+bufg      | bufg_v       | unisim                   |      | 10.5a.12.6914 (Windows) | -vendor Xilinx -93
+ibuf      | ibuf_v       | unisim                   |      | 10.5a.12.6914 (Windows) | -vendor Xilinx -93
+lut6      | lut6_v       | unisim                   |      | 10.5a.12.6914 (Windows) | -vendor Xilinx -93
+lut4      | lut4_v       | unisim                   |      | 10.5a.12.6914 (Windows) | -vendor Xilinx -93
+lut1      | lut1_v       | unisim                   |      | 10.5a.12.6914 (Windows) | -vendor Xilinx -93
+carry4    | carry4_v     | unisim                   |      | 10.5a.12.6914 (Windows) | -vendor Xilinx -93
+-----------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------
+VHDL Package             | Library                  | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------------------------
+standard                 | std                      |      |                         | <unavailable>
+TEXTIO                   | std                      |      |                         | <unavailable>
+std_logic_1164           | ieee                     |      |                         | <unavailable>
+VCOMPONENTS              | unisim                   |      |                         | <unavailable>
+VITAL_Timing             | ieee                     |      |                         | <unavailable>
+VITAL_Primitives         | ieee                     |      |                         | <unavailable>
+VPKG                     | unisim                   |      |                         | <unavailable>
+NUMERIC_STD              | ieee                     |      |                         | <unavailable>
+-----------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------
+Library                  | Comment
+-----------------------------------------------------------------------------------------------------------
+ieee                     | Standard IEEE packages library
+std                      | Standard VHDL library
+TutorVHDL_post_synthesis | None
+unisim                   | Xilinx Vivado 2017.2.1, UNISIM VHDL library
+-----------------------------------------------------------------------------------------------------------

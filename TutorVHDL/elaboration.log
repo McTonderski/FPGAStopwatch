@@ -1,20 +1,19 @@
-Active-HDL 10.5a.12.6914 2021-02-02 17:51:44
+Active-HDL 10.5a.12.6914 2021-02-07 22:46:47
 
 Elaboration top modules:
-VHDL Configuration            testbench_for_tutorvhdl
+VHDL Configuration            testbench_for_stopwatch
 
 
 --------------------------------------------------------------------------------------------------
 Entity       | Architecture    | Library   | Info | Compiler Version        | Compilation Options
 --------------------------------------------------------------------------------------------------
-tutorvhdl_tb | TB_ARCHITECTURE | tutorvhdl |      | 10.5a.12.6914 (Windows) | -dbg
-TutorVHDL    | TutorVHDL       | tutorvhdl |      | 10.5a.12.6914 (Windows) | -dbg
+Stopwatch_tb | TB_ARCHITECTURE | tutorvhdl |      | 10.5a.12.6914 (Windows) | -dbg
 --------------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------------------------
 VHDL Configuration             | Library   | Info | Compiler Version        | Compilation Options
 --------------------------------------------------------------------------------------------------
-testbench_for_tutorvhdl        | tutorvhdl |      |                         | <unavailable>
+testbench_for_stopwatch        | tutorvhdl |      |                         | <unavailable>
 --------------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------------------------
@@ -34,3 +33,9 @@ ieee                           | Standard IEEE packages library
 std                            | Standard VHDL library
 tutorvhdl                      | None
 --------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access +r TESTBENCH_FOR_stopwatch
+
+
+The performance of simulation is reduced. Version EDU Edition

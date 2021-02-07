@@ -4,14 +4,15 @@ use ieee.std_logic_1164.all;
 
 	-- Add your library and packages declaration here ...
 
-entity tutorvhdl_tb is
-end tutorvhdl_tb;
+entity sixteen_bit_counter_tb is
+end sixteen_bit_counter_tb;
 
-architecture TB_ARCHITECTURE of tutorvhdl_tb is
+architecture TB_ARCHITECTURE of sixteen_bit_counter_tb is
 	-- Component declaration of the tested unit
-	component tutorvhdl
+	component sixteen_bit_counter
 	port(
-		CLR : in STD_LOGIC;
+		CEn : in STD_LOGIC;
+		RST : in STD_LOGIC;
 		CLK : in STD_LOGIC;
 		Q1	: out STD_LOGIC_VECTOR(3 downto 0);  
 		Q2	: out STD_LOGIC_VECTOR(3 downto 0);
@@ -20,7 +21,8 @@ architecture TB_ARCHITECTURE of tutorvhdl_tb is
 	end component;
 
 	-- Stimulus signals - signals mapped to the input and inout ports of tested entity
-	signal CLR 	: STD_LOGIC;
+	signal CEn 	: STD_LOGIC;	 
+	signal RST 	: STD_LOGIC;
 	signal CLK 	: STD_LOGIC;
 	-- Observed signals - signals mapped to the output ports of tested entity
 	signal Q1	: STD_LOGIC_VECTOR(3 downto 0);	
@@ -36,9 +38,10 @@ architecture TB_ARCHITECTURE of tutorvhdl_tb is
 begin
 
 	-- Unit Under Test port map
-	UUT : tutorvhdl
-		port map (
-			CLR => CLR,
+	UUT : sixteen_bit_counter
+	port map ( 
+			CEn => CEn,
+			RST => RST,
 			CLK => CLK,
 			Q1 => Q1,
 			Q2 => Q2,
@@ -53,12 +56,12 @@ STIMULUS: process
 begin  -- of stimulus process
 --wait for <time to next event>; -- <current time>
 
-	CLR <= '0';
+	RST <= '0';
     wait for 100 ns; --0 fs
-	CLR <= '1';
+	RST <= '1';
     wait for 100 ns; --100 ns
-	CLR <= '0';
-    wait for 120 us; --200 ns
+	RST <= '0';
+    wait for 10200 us; --200 ns
 	END_SIM <= TRUE;
 --	end of stimulus events
 	wait;
@@ -89,11 +92,11 @@ end process;
 
 end TB_ARCHITECTURE;
 
-configuration TESTBENCH_FOR_tutorvhdl of tutorvhdl_tb is
+configuration TESTBENCH_FOR_sixteen_bit_counter of sixteen_bit_counter_tb is
 	for TB_ARCHITECTURE
-		for UUT : tutorvhdl
-			use entity work.tutorvhdl(tutorvhdl);
+		for UUT : sixteen_bit_counter
+			use entity work.sixteen_bit_counter(sixteen_bit_counter);
 		end for;
 	end for;
-end TESTBENCH_FOR_tutorvhdl;
+end TESTBENCH_FOR_sixteen_bit_counter;
 

@@ -1,0 +1,408 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0080 stopwatch_tb.vhd (30): Design unit stopwatch:Stopwatch instantiated in tutorvhdl.Stopwatch_tb(TB_ARCHITECTURE) not found in searched libraries: tutorvhdl.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -dbg -e 100 -work TutorVHDL -2002  $dsn/src/stoper.vhd
+# File: c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\stoper.vhd
+# Compile Entity "Stopwatch"
+# Compile Architecture "Behavioral" of Entity "Stopwatch"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# Error: Vivado finished with 25 warning(s) and 4 error(s).
+acom -dbg -e 100 -work TutorVHDL -2002  $dsn/src/stoper.vhd
+# File: c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\stoper.vhd
+# Compile Entity "Stopwatch"
+# Compile Architecture "Behavioral" of Entity "Stopwatch"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# Error: Vivado finished with 25 warning(s) and 4 error(s).
+# Error: Vivado finished with 17 warning(s) and 4 error(s).
+# Error: Vivado finished with 18 warning(s) and 3 error(s).
+# Launching Xilinx Vivado...
+# Xilinx Vivado has been launched.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Launching Xilinx Vivado...
+# Xilinx Vivado has been launched.
+acom -reorder -dbg -e 100 -work TutorVHDL -2002  $dsn/src/sixteen_bit_counter.vhd $dsn/src/Encoder.vhd $dsn/src/mux.vhd $dsn/src/muxdivider.vhd $dsn/src/stoper.vhd $dsn/src/four2one_mux.bde $dsn/src/muxdivider.bde $dsn/src/seg_decoder.bde $dsn/src/sixteen_bit_counter.bde $dsn/src/Stopwatch.bde $dsn/src/TestBench/encoder_TB.vhd $dsn/src/TestBench/stopwatch_tb.vhd $dsn/src/TestBench/sixteen_bit_counter_TB.vhd
+# DRC: Checking file 'c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\four2one_mux.bde'.
+# DRC: four2one_mux.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\compile\four2one_mux.vhd from c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\four2one_mux.bde ...
+# Generation successful
+# DRC: Checking file 'c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\muxdivider.bde'.
+# DRC: muxdivider.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 2 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\compile\muxdivider.vhd from c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\muxdivider.bde ...
+# Generation successful
+# DRC: Checking file 'c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\seg_decoder.bde'.
+# DRC: seg_decoder.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\compile\seg_decoder.vhd from c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\seg_decoder.bde ...
+# Generation successful
+# DRC: Checking file 'c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\sixteen_bit_counter.bde'.
+# DRC: sixteen_bit_counter.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\compile\sixteen_bit_counter.vhd from c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\sixteen_bit_counter.bde ...
+# Generation successful
+# DRC: Checking file 'c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\Stopwatch.bde'.
+# DRC: Stopwatch.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 2 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\compile\Stopwatch.vhd from c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\Stopwatch.bde ...
+# Generation successful
+# File: c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\sixteen_bit_counter.vhd
+# Compile Entity "sixteen_bit_counter"
+# Compile Architecture "Behavioral" of Entity "sixteen_bit_counter"
+# File: c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\Encoder.vhd
+# Compile Entity "seg_decoder"
+# Compile Architecture "Behavioral" of Entity "seg_decoder"
+# File: c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\mux.vhd
+# Compile Entity "four2one_mux"
+# Compile Architecture "Behavioral" of Entity "four2one_mux"
+# File: c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\muxdivider.vhd
+# Compile Entity "muxdivider"
+# Compile Architecture "Behavioral" of Entity "muxdivider"
+# File: c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\stoper.vhd
+# Compile Entity "Stopwatch"
+# Compile Architecture "Behavioral" of Entity "Stopwatch"
+# File: .\..\compile\four2one_mux.vhd
+# Compile Entity "four2one_mux"
+# Warning: COMP96_0994: four2one_mux.bde(four2one_mux.vhd) : (24, 1): Multiple entity "four2one_mux" found in ".\..\compile\four2one_mux.vhd", "c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\mux.vhd".
+# Compile Architecture "Behavioral" of Entity "four2one_mux"
+# Warning: COMP96_0994: four2one_mux.bde(four2one_mux.vhd) : (35, 1): Multiple architecture "Behavioral" of entity "four2one_mux" found in ".\..\compile\four2one_mux.vhd", "c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\mux.vhd".
+# File: .\..\compile\muxdivider.vhd
+# Compile Entity "muxdivider"
+# Compile Architecture "Behavioral" of Entity "muxdivider"
+# Warning: COMP96_0994: ../compile/muxdivider.vhd : (31, 1): Multiple architecture "Behavioral" of entity "muxdivider" found in ".\..\compile\muxdivider.vhd", "c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\muxdivider.vhd".
+# File: .\..\compile\seg_decoder.vhd
+# Compile Entity "seg_decoder"
+# Compile Architecture "Behavioral" of Entity "seg_decoder"
+# Warning: COMP96_0994: seg_decoder.bde(seg_decoder.vhd) : (32, 1): Multiple architecture "Behavioral" of entity "seg_decoder" found in ".\..\compile\seg_decoder.vhd", "c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\Encoder.vhd".
+# File: .\..\compile\sixteen_bit_counter.vhd
+# Compile Entity "sixteen_bit_counter"
+# Compile Architecture "sixteen_bit_counter" of Entity "sixteen_bit_counter"
+# File: .\..\compile\Stopwatch.vhd
+# Compile Entity "Stopwatch"
+# Warning: COMP96_0994: ../compile/Stopwatch.vhd : (24, 1): Multiple entity "Stopwatch" found in ".\..\compile\Stopwatch.vhd", "c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\stoper.vhd".
+# Compile Architecture "Behavioral" of Entity "Stopwatch"
+# Warning: COMP96_0994: ../compile/Stopwatch.vhd : (35, 1): Multiple architecture "Behavioral" of entity "Stopwatch" found in ".\..\compile\Stopwatch.vhd", "c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\stoper.vhd".
+# File: c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\TestBench\encoder_TB.vhd
+# Compile Entity "seg_decoder_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "seg_decoder_tb"
+# Compile Configuration "TESTBENCH_FOR_seg_decoder"
+# File: c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\TestBench\stopwatch_tb.vhd
+# Compile Entity "Stopwatch_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "Stopwatch_tb"
+# Compile Configuration "TESTBENCH_FOR_Stopwatch"
+# File: c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\TestBench\sixteen_bit_counter_TB.vhd
+# Compile Entity "sixteen_bit_counter_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "sixteen_bit_counter_tb"
+# Compile Configuration "TESTBENCH_FOR_sixteen_bit_counter"
+# Warning: COMP96_0993: Automatically determined compilation order may be incorrect because duplicate secondary design units were found.
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Configuration => TESTBENCH_FOR_seg_decoder
+# Configuration => TESTBENCH_FOR_Stopwatch
+# Configuration => TESTBENCH_FOR_sixteen_bit_counter
+# File: c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\TestBench\sixteen_bit_counter_TB.vhd
+# Compile Architecture "TB_ARCHITECTURE" of Entity "sixteen_bit_counter_tb"
+# Warning: ELAB1_0026: TestBench/sixteen_bit_counter_TB.vhd : (41, 0): There is no default binding for component "sixteen_bit_counter". (Port "CLR" is not on the entity).
+# Compile Configuration "TESTBENCH_FOR_sixteen_bit_counter"
+# Error: ELAB1_0011: TestBench/sixteen_bit_counter_TB.vhd : (97, 0): Port "RST" is on entity "sixteen_bit_counter" but not on the component declaration.
+# Error: ELAB1_0030: TestBench/sixteen_bit_counter_TB.vhd : (97, 0): Port "CLR" is on component "sixteen_bit_counter" but not on the entity "sixteen_bit_counter".
+# Error: COMP96_0203: TestBench/sixteen_bit_counter_TB.vhd : (98, 4): Binding indication has neither a generic map aspect nor a port map aspect.
+# Error: ELAB1_0011: TestBench/sixteen_bit_counter_TB.vhd : (98, 0): Port "RST" is on entity "sixteen_bit_counter" but not on the component declaration.
+# Error: ELAB1_0030: TestBench/sixteen_bit_counter_TB.vhd : (98, 0): Port "CLR" is on component "sixteen_bit_counter" but not on the entity "sixteen_bit_counter".
+# Compile failure 5 Errors 8 Warnings  Analysis time :  0.2 [s]
+edfcomp -work TutorVHDL_post_synthesis $dsn/synthesis/Stopwatch.edn
+# Compile...
+# EDFCOM: File: c:\users\macie\onedrive\desktop\vhdl\stopwatch\synthesis\stopwatch.edn
+# EDFCOM: Compilation successful; 0 errors
+# EDFCOM: c:\users\macie\onedrive\desktop\vhdl\stopwatch\synthesis\stopwatch.edn
+acom -reorder -dbg -e 100 -work TutorVHDL_post_synthesis -2002  $dsn/synthesis/Stopwatch.vhd
+# File: c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\synthesis\Stopwatch.vhd
+# Compile Entity "muxdivider"
+# Compile Architecture "STRUCTURE" of Entity "muxdivider"
+# Compile Entity "sixteen_bit_counter"
+# Compile Architecture "STRUCTURE" of Entity "sixteen_bit_counter"
+# Compile Entity "Stopwatch"
+# Compile Architecture "STRUCTURE" of Entity "Stopwatch"
+# Top-level unit(s) detected:
+# Entity => Stopwatch
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+# CODE2GRAPHICS: Analyzing file C:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\Encoder.vhd ...
+# CODE2GRAPHICS: Analyzing file C:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\mux.vhd ...
+# CODE2GRAPHICS: Analyzing file C:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\muxdivider.vhd ...
+# CODE2GRAPHICS: Analyzing file C:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\sixteen_bit_counter.vhd ...
+# CODE2GRAPHICS: Analyzing file C:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\stoper.vhd ...
+# CODE2GRAPHICS: Analyzing intermediate file C:\Users\macie\AppData\Local\Temp\TutorVHDL\TutorVHDL.erf ...
+# CODE2GRAPHICS: File: C:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\Encoder.vhd
+# 
+# CODE2GRAPHICS: Checking Entity "seg_decoder"
+# 
+# CODE2GRAPHICS: Checking Architecture "Behavioral" of Entity "seg_decoder"
+# 
+# CODE2GRAPHICS: File: C:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\mux.vhd
+# 
+# CODE2GRAPHICS: Checking Entity "four2one_mux"
+# 
+# CODE2GRAPHICS: Checking Architecture "Behavioral" of Entity "four2one_mux"
+# 
+# CODE2GRAPHICS: File: C:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\muxdivider.vhd
+# 
+# CODE2GRAPHICS: Checking Entity "muxdivider"
+# 
+# CODE2GRAPHICS: Checking Architecture "Behavioral" of Entity "muxdivider"
+# 
+# CODE2GRAPHICS: File: C:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\sixteen_bit_counter.vhd
+# 
+# CODE2GRAPHICS: Checking Entity "sixteen_bit_counter"
+# 
+# CODE2GRAPHICS: Checking Architecture "Behavioral" of Entity "sixteen_bit_counter"
+# 
+# CODE2GRAPHICS: File: C:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\stoper.vhd
+# 
+# CODE2GRAPHICS: Checking Entity "Stopwatch"
+# 
+# CODE2GRAPHICS: Checking Architecture "Behavioral" of Entity "Stopwatch"
+# 
+# CODE2GRAPHICS: Checking success 0 Errors 0 Warnings  Analysis time :  0.7 [s]
+# 
+# CODE2GRAPHICS: Finished successfully.
+# CODE2GRAPHICS: Analyzing intermediate file C:\Users\macie\AppData\Local\Temp\TutorVHDL\muxdivider.lid_old ...
+# 
+# CODE2GRAPHICS: Finished successfully.
+# 
+# CODE2GRAPHICS: Updating components according to libraries data ...
+# 
+# CODE2GRAPHICS: Finished successfully.
+# 
+# CODE2GRAPHICS: Generating temporary state diagram file C:\Users\macie\AppData\Local\Temp\6673A1D.tmp...
+# 
+# CODE2GRAPHICS: Analyzing intermediate file C:\Users\macie\AppData\Local\Temp\TutorVHDL\four2one_mux_Behavioral.lid ...
+# 
+# CODE2GRAPHICS: Finished successfully.
+# 
+# CODE2GRAPHICS: Analyzing intermediate file C:\Users\macie\AppData\Local\Temp\TutorVHDL\muxdivider_Behavioral.lid ...
+# 
+# CODE2GRAPHICS: Finished successfully.
+# 
+# CODE2GRAPHICS: Analyzing intermediate file C:\Users\macie\AppData\Local\Temp\TutorVHDL\seg_decoder_Behavioral.lid ...
+# 
+# CODE2GRAPHICS: Finished successfully.
+# 
+# CODE2GRAPHICS: Analyzing intermediate file C:\Users\macie\AppData\Local\Temp\TutorVHDL\sixteen_bit_counter_Behavioral.lid ...
+# 
+# CODE2GRAPHICS: Finished successfully.
+# 
+# CODE2GRAPHICS: Analyzing intermediate file C:\Users\macie\AppData\Local\Temp\TutorVHDL\Stopwatch_Behavioral.lid ...
+# 
+# CODE2GRAPHICS: Finished successfully.
+# 
+# CODE2GRAPHICS: Updating components according to libraries data ...
+# 
+# CODE2GRAPHICS: Finished successfully.
+# 
+# CODE2GRAPHICS: Generating temporary block diagram file C:\Users\macie\AppData\Local\Temp\6673A1A.tmp ...
+# CODE2GRAPHICS: Finished successfully.
+# 
+# CODE2GRAPHICS: Generating temporary block diagram file C:\Users\macie\AppData\Local\Temp\6673A1C.tmp ...Finished successfully.
+# 
+# CODE2GRAPHICS: Generating temporary block diagram file C:\Users\macie\AppData\Local\Temp\6683A2E.tmp ...Finished successfully.
+# 
+# CODE2GRAPHICS: Generating temporary block diagram file C:\Users\macie\AppData\Local\Temp\6683A30.tmp ...
+# CODE2GRAPHICS: Finished successfully.
+# 
+# CODE2GRAPHICS: Generating temporary block diagram file C:\Users\macie\AppData\Local\Temp\6683A32.tmp ...
+# CODE2GRAPHICS: Finished successfully.
+# 
+# CODE2GRAPHICS: Copying temporary bde diagram file C:\Users\macie\AppData\Local\Temp\6673A1A.tmp into file c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\four2one_mux.bde
+# CODE2GRAPHICS: Copying temporary bde diagram file C:\Users\macie\AppData\Local\Temp\6673A1C.tmp into file c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\muxdivider.bde
+# CODE2GRAPHICS: Copying temporary bde diagram file C:\Users\macie\AppData\Local\Temp\6683A2E.tmp into file c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\seg_decoder.bde
+# CODE2GRAPHICS: Copying temporary bde diagram file C:\Users\macie\AppData\Local\Temp\6683A30.tmp into file c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\sixteen_bit_counter.bde
+# CODE2GRAPHICS: Copying temporary bde diagram file C:\Users\macie\AppData\Local\Temp\6683A32.tmp into file c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\Stopwatch.bde
+# CODE2GRAPHICS: 5 unit(s) converted to Block Diagram(s)
+# CODE2GRAPHICS: 0 unit(s) converted to State Diagram(s)
+# CODE2GRAPHICS: Double click on this line to view the generated log file
+acom -dbg -e 100 -work TutorVHDL -2002  $dsn/src/sixteen_bit_counter.vhd $dsn/src/Encoder.vhd $dsn/src/mux.vhd $dsn/src/muxdivider.vhd $dsn/src/stoper.vhd $dsn/src/four2one_mux.bde $dsn/src/muxdivider.bde $dsn/src/seg_decoder.bde $dsn/src/sixteen_bit_counter.bde $dsn/src/Stopwatch.bde $dsn/src/TestBench/encoder_TB.vhd $dsn/src/TestBench/stopwatch_tb.vhd $dsn/src/TestBench/sixteen_bit_counter_TB.vhd
+# DRC: Checking file 'c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\four2one_mux.bde'.
+# DRC: four2one_mux.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\compile\four2one_mux.vhd from c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\four2one_mux.bde ...
+# Generation successful
+# DRC: Checking file 'c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\muxdivider.bde'.
+# DRC: muxdivider.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\compile\muxdivider.vhd from c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\muxdivider.bde ...
+# Generation successful
+# DRC: Checking file 'c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\seg_decoder.bde'.
+# DRC: seg_decoder.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\compile\seg_decoder.vhd from c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\seg_decoder.bde ...
+# Generation successful
+# DRC: Checking file 'c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\sixteen_bit_counter.bde'.
+# DRC: sixteen_bit_counter.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\compile\sixteen_bit_counter.vhd from c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\sixteen_bit_counter.bde ...
+# Generation successful
+# DRC: Checking file 'c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\Stopwatch.bde'.
+# DRC: Stopwatch.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 2 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\compile\Stopwatch.vhd from c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\Stopwatch.bde ...
+# Generation successful
+# File: c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\sixteen_bit_counter.vhd
+# Compile Entity "sixteen_bit_counter"
+# Compile Architecture "Behavioral" of Entity "sixteen_bit_counter"
+# File: c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\Encoder.vhd
+# Compile Entity "seg_decoder"
+# Compile Architecture "Behavioral" of Entity "seg_decoder"
+# File: c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\mux.vhd
+# Compile Entity "four2one_mux"
+# Compile Architecture "Behavioral" of Entity "four2one_mux"
+# File: c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\muxdivider.vhd
+# Compile Entity "muxdivider"
+# Compile Architecture "Behavioral" of Entity "muxdivider"
+# File: c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\stoper.vhd
+# Compile Entity "Stopwatch"
+# Compile Architecture "Behavioral" of Entity "Stopwatch"
+# File: .\..\compile\four2one_mux.vhd
+# Compile Entity "four2one_mux"
+# Warning: COMP96_0994: four2one_mux.bde(four2one_mux.vhd) : (24, 1): Multiple entity "four2one_mux" found in ".\..\compile\four2one_mux.vhd", "c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\mux.vhd".
+# Compile Architecture "Behavioral" of Entity "four2one_mux"
+# Warning: COMP96_0994: four2one_mux.bde(four2one_mux.vhd) : (35, 1): Multiple architecture "Behavioral" of entity "four2one_mux" found in ".\..\compile\four2one_mux.vhd", "c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\mux.vhd".
+# File: .\..\compile\muxdivider.vhd
+# Compile Entity "muxdivider"
+# Compile Architecture "Behavioral" of Entity "muxdivider"
+# Warning: COMP96_0994: ../compile/muxdivider.vhd : (31, 1): Multiple architecture "Behavioral" of entity "muxdivider" found in ".\..\compile\muxdivider.vhd", "c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\muxdivider.vhd".
+# File: .\..\compile\seg_decoder.vhd
+# Compile Entity "seg_decoder"
+# Compile Architecture "Behavioral" of Entity "seg_decoder"
+# Warning: COMP96_0994: seg_decoder.bde(seg_decoder.vhd) : (32, 1): Multiple architecture "Behavioral" of entity "seg_decoder" found in ".\..\compile\seg_decoder.vhd", "c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\Encoder.vhd".
+# File: .\..\compile\sixteen_bit_counter.vhd
+# Compile Entity "sixteen_bit_counter"
+# Compile Architecture "Behavioral" of Entity "sixteen_bit_counter"
+# Warning: COMP96_0994: ../compile/sixteen_bit_counter.vhd : (37, 1): Multiple architecture "Behavioral" of entity "sixteen_bit_counter" found in ".\..\compile\sixteen_bit_counter.vhd", "c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\sixteen_bit_counter.vhd".
+# File: .\..\compile\Stopwatch.vhd
+# Compile Entity "Stopwatch"
+# Warning: COMP96_0994: ../compile/Stopwatch.vhd : (24, 1): Multiple entity "Stopwatch" found in ".\..\compile\Stopwatch.vhd", "c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\stoper.vhd".
+# Compile Architecture "Behavioral" of Entity "Stopwatch"
+# Warning: COMP96_0994: ../compile/Stopwatch.vhd : (35, 1): Multiple architecture "Behavioral" of entity "Stopwatch" found in ".\..\compile\Stopwatch.vhd", "c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\stoper.vhd".
+# File: c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\TestBench\encoder_TB.vhd
+# Compile Entity "seg_decoder_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "seg_decoder_tb"
+# Compile Configuration "TESTBENCH_FOR_seg_decoder"
+# File: c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\TestBench\stopwatch_tb.vhd
+# Compile Entity "Stopwatch_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "Stopwatch_tb"
+# Compile Configuration "TESTBENCH_FOR_Stopwatch"
+# File: c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\TestBench\sixteen_bit_counter_TB.vhd
+# Compile Entity "sixteen_bit_counter_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "sixteen_bit_counter_tb"
+# Warning: ELAB1_0026: TestBench/sixteen_bit_counter_TB.vhd : (41, 0): There is no default binding for component "sixteen_bit_counter". (Port "CLR" is not on the entity).
+# Compile Configuration "TESTBENCH_FOR_sixteen_bit_counter"
+# Error: ELAB1_0011: TestBench/sixteen_bit_counter_TB.vhd : (97, 0): Port "RST" is on entity "sixteen_bit_counter" but not on the component declaration.
+# Error: ELAB1_0030: TestBench/sixteen_bit_counter_TB.vhd : (97, 0): Port "CLR" is on component "sixteen_bit_counter" but not on the entity "sixteen_bit_counter".
+# Error: COMP96_0203: TestBench/sixteen_bit_counter_TB.vhd : (98, 4): Binding indication has neither a generic map aspect nor a port map aspect.
+# Error: ELAB1_0011: TestBench/sixteen_bit_counter_TB.vhd : (98, 0): Port "RST" is on entity "sixteen_bit_counter" but not on the component declaration.
+# Error: ELAB1_0030: TestBench/sixteen_bit_counter_TB.vhd : (98, 0): Port "CLR" is on component "sixteen_bit_counter" but not on the entity "sixteen_bit_counter".
+# Compile failure 5 Errors 8 Warnings  Analysis time :  0.1 [s]
+edfcomp -work TutorVHDL_post_synthesis $dsn/synthesis/Stopwatch.edn
+# Compile...
+# EDFCOM: File: c:\users\macie\onedrive\desktop\vhdl\stopwatch\synthesis\stopwatch.edn
+# EDFCOM: Compilation successful; 0 errors
+# EDFCOM: c:\users\macie\onedrive\desktop\vhdl\stopwatch\synthesis\stopwatch.edn
+acom -dbg -e 100 -work TutorVHDL_post_synthesis -2002  $dsn/synthesis/Stopwatch.vhd
+# File: c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\synthesis\Stopwatch.vhd
+# Compile Entity "muxdivider"
+# Compile Architecture "STRUCTURE" of Entity "muxdivider"
+# Compile Entity "sixteen_bit_counter"
+# Compile Architecture "STRUCTURE" of Entity "sixteen_bit_counter"
+# Compile Entity "Stopwatch"
+# Compile Architecture "STRUCTURE" of Entity "Stopwatch"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -dbg -e 100 -work TutorVHDL -2002  $dsn/src/TestBench/sixteen_bit_counter_TB.vhd
+# File: c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\TestBench\sixteen_bit_counter_TB.vhd
+# Compile Entity "sixteen_bit_counter_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "sixteen_bit_counter_tb"
+# Error: COMP96_0078: TestBench/sixteen_bit_counter_TB.vhd : (59, 2): Unknown identifier "CLR".
+# Error: COMP96_0133: TestBench/sixteen_bit_counter_TB.vhd : (59, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/sixteen_bit_counter_TB.vhd : (61, 2): Unknown identifier "CLR".
+# Error: COMP96_0133: TestBench/sixteen_bit_counter_TB.vhd : (61, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/sixteen_bit_counter_TB.vhd : (63, 2): Unknown identifier "CLR".
+# Error: COMP96_0133: TestBench/sixteen_bit_counter_TB.vhd : (63, 2): Cannot find object declaration.
+# Compile Configuration "TESTBENCH_FOR_sixteen_bit_counter"
+# Error: ELAB1_0011: TestBench/sixteen_bit_counter_TB.vhd : (97, 0): Port "RST" is on entity "sixteen_bit_counter" but not on the component declaration.
+# Error: ELAB1_0030: TestBench/sixteen_bit_counter_TB.vhd : (97, 0): Port "CLR" is on component "sixteen_bit_counter" but not on the entity "sixteen_bit_counter".
+# Error: COMP96_0203: TestBench/sixteen_bit_counter_TB.vhd : (98, 4): Binding indication has neither a generic map aspect nor a port map aspect.
+# Error: ELAB1_0011: TestBench/sixteen_bit_counter_TB.vhd : (98, 0): Port "RST" is on entity "sixteen_bit_counter" but not on the component declaration.
+# Error: ELAB1_0030: TestBench/sixteen_bit_counter_TB.vhd : (98, 0): Port "CLR" is on component "sixteen_bit_counter" but not on the entity "sixteen_bit_counter".
+# Compile failure 11 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work TutorVHDL -2002  $dsn/src/TestBench/sixteen_bit_counter_TB.vhd
+# File: c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\TestBench\sixteen_bit_counter_TB.vhd
+# Compile Entity "sixteen_bit_counter_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "sixteen_bit_counter_tb"
+# Compile Configuration "TESTBENCH_FOR_sixteen_bit_counter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -dbg -e 100 -work TutorVHDL -2002  $dsn/src/Stopwatch.bde
+# File: .\..\compile\Stopwatch.vhd
+# Compile Entity "Stopwatch"
+# Compile Architecture "Behavioral" of Entity "Stopwatch"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -dbg -e 100 -work TutorVHDL -2002  $dsn/compile/sixteen_bit_counter.vhd
+# File: .\sixteen_bit_counter.vhd
+# Compile Entity "sixteen_bit_counter"
+# Compile Architecture "Behavioral" of Entity "sixteen_bit_counter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# Warning: Vivado finished with 11 warning(s).
+# Library Manager: Library "TutorVHDL_post_synthesis" contents cleared.
+# Library Manager: Library "TutorVHDL_post_synthesis" contents cleared.
+# Error: Vivado finished with 18 warning(s) and 3 error(s).
+# Error: Vivado finished with 12 warning(s) and 3 error(s).
+# Warning: Vivado finished with 19 warning(s).
+# Library Manager: Library "TutorVHDL_timing" contents cleared.
+SetActiveLib -work
+comp -include "$dsn\src\stoper.vhd" 
+# File: c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\stoper.vhd
+# Compile Entity "Stopwatch"
+# Compile Architecture "Behavioral" of Entity "Stopwatch"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+comp -include "$dsn\src\TestBench\stopwatch_tb.vhd" 
+# File: c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\TestBench\stopwatch_tb.vhd
+# Compile Entity "Stopwatch_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "Stopwatch_tb"
+# Compile Configuration "TESTBENCH_FOR_Stopwatch"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+asim +access +r TESTBENCH_FOR_stopwatch
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0080 stopwatch_tb.vhd (30): Design unit stopwatch:Stopwatch instantiated in tutorvhdl.Stopwatch_tb(TB_ARCHITECTURE) not found in searched libraries: tutorvhdl, TutorVHDL.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch_tb.vhd (30): Component /Stopwatch_tb/UUT : Stopwatch not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6045 kB (elbread=1280 elab2=4627 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\macie\OneDrive\Desktop\vhdl\stopwatch\src\wave.asdb
+#  22:46, 07 February 2021
+#  Simulation has been in

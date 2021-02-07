@@ -20,7 +20,7 @@ begin
 		end if;
 	end process;
 	
-	sig1 <= not outside_couter_signal(0);
-	sig2 <= outside_couter_signal(1) xor outside_couter_signal(0);
-	outside_counter <= outside_couter_signal;
+		sig1 <= not outside_couter_signal(0);
+		sig2 <= outside_couter_signal(1) xor outside_couter_signal(0);
+		outside_counter <= outside_couter_signal;
 	end Behavioral;

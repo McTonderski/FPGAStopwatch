@@ -1,6 +1,9 @@
-i<>.\src\TutorVHDL.vhd
-i<>.\src\TestBench\tutorvhdl_TB.vhd
 i<>.\src\Encoder.vhd
 i<>.\src\mux.vhd
 i<>.\src\muxdivider.vhd
 i<>.\src\stoper.vhd
+i<>.\src\four2one_mux.bde
+i<>.\src\muxdivider.bde
+i<>.\src\seg_decoder.bde
+i<>.\src\sixteen_bit_counter.bde
+i<>.\src\Stopwatch.bde

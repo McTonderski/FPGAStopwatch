@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sun Feb  7 13:09:02 2021
+# Process ID: 11296
+# Current directory: c:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/synthesis
+# Command line: vivado.exe -mode gui -log vivado.log -journal transcript.log -source c:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/synthesis/run_vivado.tcl
+# Log file: c:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/synthesis/vivado.log
+# Journal file: c:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/synthesis\transcript.log
+#-----------------------------------------------------------
+start_gui
+source c:/Users/macie/OneDrive/Desktop/vhdl/stopwatch/synthesis/run_vivado.tcl

@@ -1,7 +1,7 @@
 SetActiveLib -work
-comp -include "$dsn\src\TutorVHDL.vhd" 
-comp -include "$dsn\src\TestBench\tutorvhdl_TB.vhd" 
-asim +access +r TESTBENCH_FOR_tutorvhdl 
+comp -include "$dsn\src\sixteen_bit_counter.vhd" 
+comp -include "$dsn\src\TestBench\sixteen_bit_counter_TB.vhd" 
+asim +access +r TESTBENCH_FOR_sixteen_bit_counter 
 wave 
 wave -noreg CLR
 wave -noreg CLK

@@ -1,0 +1,26 @@
+E muxdivider EDIF
+L IEEE;STD;
+U IEEE.STD_LOGIC_1164;
+P AN_OBUF _out std_logic_vector[3:0]
+P Q _out std_logic_vector[1:0]
+P CLK _in std_logic
+X muxdivider
+E sixteen_bit_counter EDIF
+L IEEE;STD;
+U IEEE.STD_LOGIC_1164;
+P DISP0_OBUF _out std_logic_vector[6:0]
+P Q _in std_logic_vector[1:0]
+P CLK _in std_logic
+P reset_IBUF _in std_logic
+P start_stop_IBUF _in std_logic
+X sixteen_bit_counter
+E Stopwatch EDIF
+L IEEE;STD;
+U IEEE.STD_LOGIC_1164;
+P AN _out std_logic_vector[3:0]
+P DISP0 _out std_logic_vector[6:0]
+P clk_in _in std_logic
+P dp _out std_logic
+P reset _in std_logic
+P start_stop _in std_logic
+X Stopwatch
